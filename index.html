@@ -2,112 +2,115 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Tarvesh General Store</title>
 
 <style>
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
+margin:0;
+font-family:Arial,sans-serif;
+background:#f3f5f7;
 }
 
 header{
-    background:linear-gradient(to right,#0052D4,#4364F7,#6FB1FC);
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+background:linear-gradient(135deg,#0d6efd,#00b4ff);
+color:white;
+text-align:center;
+padding:35px 20px;
 }
 
 header h1{
-    margin:0;
-    font-size:48px;
-}
-
-header p{
-    font-size:24px;
-}
-
-.container{
-    width:90%;
-    max-width:1100px;
-    margin:auto;
-}
-
-.card{
-    background:white;
-    margin:25px 0;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,0.15);
-}
-
-.shopimg{
-    width:100%;
-    border-radius:15px;
-}
-
-h2{
-    color:#0052D4;
-}
-
-.products{
-    display:flex;
-    flex-wrap:wrap;
-    gap:15px;
-    justify-content:center;
-}
-
-.product{
-    background:#eef4ff;
-    padding:15px;
-    border-radius:12px;
-    width:200px;
-    text-align:center;
-    font-weight:bold;
-}
-
-.btn{
-    display:inline-block;
-    text-decoration:none;
-    padding:12px 25px;
-    margin:10px;
-    border-radius:30px;
-    color:white;
-    font-size:18px;
-}
-
-.whatsapp{
-    background:#25D366;
-}
-
-.call{
-    background:#0052D4;
-}
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
-}
-
-@media(max-width:600px){
-
-header h1{
-font-size:32px;
+margin:0;
+font-size:38px;
 }
 
 header p{
 font-size:18px;
+margin-top:10px;
 }
 
-.product{
+.container{
+width:90%;
+max-width:900px;
+margin:auto;
+}
+
+.shop-img{
 width:100%;
+margin-top:25px;
+border-radius:20px;
+box-shadow:0 6px 20px rgba(0,0,0,0.2);
 }
 
+.card{
+background:white;
+margin-top:25px;
+padding:25px;
+border-radius:20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
 }
+
+.about{
+border-left:7px solid #0d6efd;
+}
+
+h2{
+text-align:center;
+color:#0d6efd;
+}
+
+h3{
+color:#ff5722;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+}
+
+ul{
+font-size:18px;
+line-height:2;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+margin:10px;
+border-radius:35px;
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.location{
+background:#ff5722;
+}
+
+.center{
+text-align:center;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
 </style>
 
 </head>
@@ -116,118 +119,99 @@ width:100%;
 
 <header>
 
-<h1>Tarvesh General Store</h1>
+<h1>🛒 Tarvesh General Store</h1>
 
-<p>Grocery | Cosmetics | Ice Cream</p>
+<p>
+VPO Sukhsal<br>
+Teh. Nangal<br>
+Dist. Ropar, Punjab
+</p>
 
 </header>
 
 <div class="container">
 
-<div class="card">
+<img src="shop.jpg" class="shop-img" alt="Shop Photo">
 
-<img src="shop.jpg.jpeg" class="shopimg">
+<div class="card about">
 
-</div>
-
-
-<div class="card">
-
-<h2>About Us</h2>
+<h2>✨ About Us</h2>
 
 <p>
 
 Welcome to <b>Tarvesh General Store</b>.
 
-Our shop has been serving customers since <b>2005</b>.
+We are proudly serving our customers since <b>2005</b>.
 
-We provide Grocery, Cosmetics, Ice Cream and homemade products with quality and trust.
+Our store is known for quality products, fair prices and friendly service.
+
+We provide all types of <b>Grocery, Cosmetics and Ice Cream</b> under one roof.
+
+</p>
+
+<h3>🌟 Our Special Homemade Products</h3>
+
+<ul>
+
+<li>🌿 Haldi</li>
+
+<li>🌶️ Garam Masala</li>
+
+<li>☕ Tea Masala</li>
+
+<li>🥣 Panjeri</li>
+
+<li>🥥 Nariyal Oil</li>
+
+<li>🌱 Til Oil</li>
+
+</ul>
+
+<p class="center" style="color:#0d6efd;font-weight:bold;">
+
+❤️ Thank you for trusting us for more than 20 years.
 
 </p>
 
 </div>
-
 
 <div class="card">
 
-<h2>Our Products</h2>
+<h2>📞 Contact Us</h2>
 
-<div class="products">
+<p><b>Phone:</b> 9417093809</p>
 
-<div class="product">Grocery Items</div>
-
-<div class="product">Cosmetics</div>
-
-<div class="product">Ice Cream</div>
-
-<div class="product">Haldi</div>
-
-<div class="product">Garam Masala</div>
-
-<div class="product">Tea Masala</div>
-
-<div class="product">Panjeri</div>
-
-<div class="product">Nariyal Oil</div>
-
-<div class="product">Til Oil</div>
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-<h2>Contact Us</h2>
-
-<p>
-
-📍 VPO Sukhsal<br>
-
-Teh. Nangal<br>
-
-Dist. Rupnagar (Ropar)<br>
-
-Punjab
-
-</p>
-
-<p>
-
-📞 <b>9417093809</b>
-
-</p>
-
-<a class="btn call" href="tel:9417093809">
-
-Call Now
-
-</a>
+<div class="center">
 
 <a class="btn whatsapp"
-
-href="https://wa.me/919417093809">
+href="https://wa.me/919417093809"
+target="_blank">
 
 WhatsApp
 
 </a>
 
-</div>
+<a class="btn location"
+href="https://maps.app.goo.gl/AJYtskUFU46tzecu6"
+target="_blank">
+
+📍 Our Location
+
+</a>
 
 </div>
 
+</div>
+
+</div>
 
 <footer>
 
-© 2026 Tarvesh General Store
+© 2026 Tarvesh General Store<br>
 
-<br>
-
-Serving Customers Since 2005
+Serving Customers Since 2005 ❤️
 
 </footer>
 
 </body>
-
 </html>
